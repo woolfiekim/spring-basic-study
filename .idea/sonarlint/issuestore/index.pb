@@ -27,11 +27,7 @@ Y
 )src/main/java/hello/core/order/Order.java,d/6/d63b2c99f2ab03decd409fc077ff382fe35f18b7
 `
 0src/main/java/hello/core/order/OrderService.java,2/9/2969a2581863e32063643e735463b3c1ea262b01
-d
-4src/test/java/hello/core/order/OrderServiceTest.java,5/8/5841eb00914cda8bcd60b16b208273392858a74b
 i
 9src/main/java/hello/core/discount/RateDiscountPolicy.java,b/6/b6aa67e382430bb6725eac5dcf504f389c69eeda
-m
-=src/test/java/hello/core/discount/RateDiscountPolicyTest.java,2/9/290e8fd500d1015581f29b40f13251799c6c8d6c
 W
 'src/main/java/hello/core/MemberApp.java,d/9/d9c0e75e8087b28d6234109c5d6be77ffb9d30a3

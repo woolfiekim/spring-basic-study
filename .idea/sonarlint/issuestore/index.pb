@@ -22,15 +22,11 @@ e
 h
 8src/main/java/hello/core/discount/FixDiscountPolicy.java,7/8/783a92abedfa31ae0231e885a252930599b878b3
 f
-6src/main/java/hello/core/member/MemberServiceImpl.java,3/c/3c89627e38437fb3bfd25cc0b718885fd9e0aacf
-f
 6src/test/java/hello/core/member/MemberServiceTest.java,2/b/2b9c5c39d262c78c194de37a1beda88a907056b9
 Y
 )src/main/java/hello/core/order/Order.java,d/6/d63b2c99f2ab03decd409fc077ff382fe35f18b7
 `
 0src/main/java/hello/core/order/OrderService.java,2/9/2969a2581863e32063643e735463b3c1ea262b01
-d
-4src/main/java/hello/core/order/OrderServiceImpl.java,8/5/8575f8b892c4fcb01d60520c941d80383c672ed3
 d
 4src/test/java/hello/core/order/OrderServiceTest.java,5/8/5841eb00914cda8bcd60b16b208273392858a74b
 i

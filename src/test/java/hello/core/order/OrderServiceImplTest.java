@@ -17,8 +17,8 @@ class OrderServiceImplTest {
     @Test
     void createOrder(){
 
-        OrderServiceImpl orderService = new OrderServiceImpl();
-        orderService.createOrder(1L, "itemA", 10000);
+        // OrderServiceImpl orderService = new OrderServiceImpl();
+        // orderService.createOrder(1L, "itemA", 10000);
 
         /*
          * 위 코드는 빈으로 등록한 OrderServiceImpl를 사용하는 것이 아니라

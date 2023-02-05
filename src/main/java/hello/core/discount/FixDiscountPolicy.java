@@ -7,7 +7,6 @@ import hello.core.member.Grade;
 import hello.core.member.Member;
 
 @Component
-
 public class FixDiscountPolicy implements DiscountPolicy{
 
     private int discountFixAmount = 1000;

@@ -14,17 +14,18 @@ import lombok.RequiredArgsConstructor;
 public class LogDemoController {
 
     private final LogDemoService logDemoService;
-    private final ObjectProvider<MyLogger> myLoggerProvider;
+    private final MyLogger myLoggerProvider;
 
     @RequestMapping("log-demo")
     @ResponseBody
     public String logDemo(HttpServletRequest request){
 
         String requestURL = request.getRequestURL().toString();
-        MyLogger myLogger = myLoggerProvider.getObject();
-        myLogger.setRequestURL(requestURL);
 
-        myLogger.log("controller test");
+        System.out.println("myLogger = " + myLoggerProvider.getClass());
+        myLoggerProvider.setRequestURL(requestURL);
+
+        myLoggerProvider.log("controller test");
         logDemoService.logic("testID");
         return "OK";
     }

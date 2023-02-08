@@ -10,10 +10,10 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LogDemoService {
 
-    private final ObjectProvider<MyLogger> myLoggerProvider;
+    private final MyLogger myLoggerProvider;
 
     public void logic(String id){
-        MyLogger myLogger = myLoggerProvider.getObject();
-        myLogger.log("service id = " + id);
+        // MyLogger myLogger = myLoggerProvider.getObject();
+        myLoggerProvider.log("service id = " + id);
     }
 }
